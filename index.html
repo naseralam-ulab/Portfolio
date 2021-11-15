@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles.css">
+    <title>Naser A. Alam</title>
+</head>
+
+<body>
+    <section id="welcomeBanner" class="container">
+        <h1 id="bannerText">Hello there !</h1>
+    </section>
+    <section id="profile" class="container">
+        <div id="profileIntro">
+            <img src="./assets/ProfiePicture-modified.png" alt="Profile Picture - Naser A. Alam" class="profile_image">
+            <h3 class="section_title">Naser A. Alam</h3>
+            <h4 class="content_subheader">Undergraduate Student | CSE ULAB </h4>
+            <div id="social_links">
+                <a href="https://bd.linkedin.com/in/naserabdullahalam"><img class="social_logo"
+                        src="./assets/linkedin.png" alt="LinkedIn logo"></a>
+                <a href="https://github.com/naserAlam"><img class="social_logo" src="./assets/github.png"
+                        alt="Github logo"></a>
+                <a href="https://www.facebook.com/naserabdullah.alam"><img class="social_logo"
+                        src="./assets/facebook.png" alt="Facebook logo"></a>
+                <a href="https://www.instagram.com/naserabdullah.alam/"><img class="social_logo"
+                        src="./assets/instagram.png" alt="Instgram logo"></a>
+                <a href="https://twitter.com/NaserAbdullahA1"><img class="social_logo" src="./assets/twitter.png"
+                        alt="Twitter logo"></a>
+            </div>
+        </div>
+        <hr class="vertical">
+        <div id="profileContent">
+            <h3 class="content_header">Who Am I?</h3>
+            <p class="content_text"> I am a fourth-year computer science major at University of Liberal
+                Arts Bangladesh. Apart from academics and work I am a tech-enthusiast, I love to keep myself updated
+                about the latest technological trends. In my free time I sketch too, on weekends you might find me at
+                local art exhibitions or museums.
+            </p>
+        </div>
+    </section>
+    <section id="hobbies" class="container">
+        <h2 id="hobbyTitle" class="section_title">Hobbies</h2>
+        <div id="hobby-1" class="hobby">
+            <img class="hobby_image" src="./assets/hobby-1.png" alt="sketch icon">
+            <p class="info_text hobby_label"> Sketching </p>
+        </div>
+        <div id="hobby-2" class="hobby">
+            <img class="hobby_image" src="./assets/hobby-2.png" alt="sketch icon">
+            <p class="info_text"> Photography </p>
+        </div>
+        <div id="hobby-3" class="hobby">
+            <img class="hobby_image" src="./assets/hobby-3.png" alt="sketch icon">
+            <p class="info_text"> Cooking </p>
+        </div>
+        <div id="hobby-4" class="hobby">
+            <img class="hobby_image" src="./assets/hobby-4.png" alt="sketch icon">
+            <p class="info_text"> Movie Review </p>
+        </div>
+    </section>
+    <section id="contents" class="container">
+        <div id="automatic-slider">
+            <h3 class="section_title"> Art Gallary </h3>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 4</div>
+                    <img class="slider-image" src="./assets/hobby/hob_sli_01.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 4</div>
+                    <img class="slider-image" src="./assets/hobby/hob_sli_02.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 4</div>
+                    <img class="slider-image" src="./assets/hobby/hob_sli_03.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img class="slider-image" src="./assets/hobby/hob_sli_04.jpg">
+                </div>
+            </div>
+            <br>
+        </div>
+        <div id="loop-video">
+            <h3 id="videoTitle" class="section_title"> Favorite Youtube Video </h3>
+            <iframe width="640px" height="480px" src="https://www.youtube.com/embed/cjkFG6bHGNc"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000);
+        }
+
+    </script>
+</body>
+
+</html>

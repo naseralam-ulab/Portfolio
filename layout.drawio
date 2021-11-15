@@ -1,0 +1,41 @@
+<mxfile host="65bd71144e">
+    <diagram id="N1FT5cLAw3hc3lfBPVfD" name="portfolio-home">
+        <mxGraphModel dx="1573" dy="1195" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" style="" parent="0"/>
+                <mxCell id="25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry width="824" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;imageAspect=0;" vertex="1" parent="1">
+                    <mxGeometry y="80" width="827" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;imageAspect=0;" vertex="1" parent="1">
+                    <mxGeometry y="420" width="827" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;span style=&quot;font-size: 28px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;imageAspect=0;" vertex="1" parent="1">
+                    <mxGeometry y="760" width="825.5" height="327" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry y="1089" width="827" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Skeleton" parent="0"/>
+                <mxCell id="31" value="&lt;font style=&quot;font-size: 30px&quot; color=&quot;#ffffff&quot;&gt;Profile&lt;/font&gt;" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#2a2a2a;gradientColor=#6E6E6E;" vertex="1" parent="9">
+                    <mxGeometry x="304" y="550" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;font style=&quot;font-size: 30px&quot; color=&quot;#ffffff&quot;&gt;Header&lt;/font&gt;" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#2a2a2a;gradientColor=#6E6E6E;" vertex="1" parent="9">
+                    <mxGeometry x="304" y="30" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;font style=&quot;font-size: 30px&quot; color=&quot;#ffffff&quot;&gt;Welcome&lt;/font&gt;" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#2a2a2a;gradientColor=#6E6E6E;" vertex="1" parent="9">
+                    <mxGeometry x="304" y="240" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 30px&quot;&gt;Contents&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#2a2a2a;gradientColor=#6E6E6E;" vertex="1" parent="9">
+                    <mxGeometry x="304" y="850" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;font style=&quot;font-size: 30px&quot; color=&quot;#ffffff&quot;&gt;Footer&lt;/font&gt;" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#2a2a2a;gradientColor=#6E6E6E;" vertex="1" parent="9">
+                    <mxGeometry x="304" y="1060" width="220" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

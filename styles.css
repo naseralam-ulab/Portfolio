@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+  display: grid;
+  width: auto;
+  height: 640px;
+}
+
+hr.vertical {
+  border: 0;
+  border-left: 2px solid #90afc5;
+  height: 520px;
+  float: left;
+}
+
+#welcomeBanner {
+  background-color: #90afc5;
+  align-items: center;
+  justify-content: center;
+}
+
+#bannerText {
+  color: #763626;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.section_title {
+  color: #763626;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#profile {
+  grid-template-columns: 32% 2% 66%;
+  background-color: rgb(221, 214, 202);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.profile_image {
+  padding-bottom: 30px;
+  max-width: 100%;
+  height: 250px;
+  object-fit: contain;
+}
+
+.content_header {
+  color: #763626;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.content_subheader {
+  color: blue;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.content_text {
+  color: #2a3132;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.social_logo {
+  padding-top: 10px;
+  padding-right: 1%;
+  max-width: 100%;
+  height: 30px;
+  object-fit: contain;
+}
+
+#hobbies {
+  height: 360px;
+  background-color: #90afc5;
+  grid-template-columns: 15% 15% 15% 15%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#hobbyTitle {
+  grid-column: 1 / span 4;
+}
+
+.hobby {
+  padding: auto;
+}
+.hobby_image {
+  padding-top: 10px;
+  padding-right: 1%;
+  max-width: 100%;
+  height: 100px;
+  object-fit: contain;
+}
+
+#contents {
+  background-color: rgb(221, 214, 202);
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+#loop-video {
+  padding-bottom: 25px;
+}
+
+/* Slider */
+#automatic-slider {
+  text-align: center;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.slider-image {
+  width: auto;
+  height: 480px;
+}
